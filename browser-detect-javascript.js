@@ -17,21 +17,13 @@ var browserDetect = {
     browserDetect.showInfo(navigator.userAgent);
   },
   detectJS: function () {
-    // Load Detect.js only when user requests it
-    $.getScript("Detect.js/detect.min.js")
-    .done(function() {
-      b = detect.parse(navigator.userAgent);
-      // Display the Detect.js parsed properties in the message area
-      browserDetect.showInfo(
+    b = detect.parse(navigator.userAgent);
+    // Display the Detect.js parsed properties in the message area
+    browserDetect.showInfo(
         'Your browser is ' + b.browser.name + '</br>' +
         'Your device type is ' + b.device.type + '</br>' +
         'Your operating system is ' + b.os.name + '</br>'
-      );
-    })
-    .fail(function () {
-      // Display notification that Detect.js failed to load
-      showInfo('Couldn\'t load Detect.js');
-    });
+    );
   },
   // Update message area with the string argument
   showInfo: function (m) {

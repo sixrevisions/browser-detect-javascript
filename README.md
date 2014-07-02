@@ -1,5 +1,5 @@
 # Browser Detection with JavaScript
-=========================
+
 [![Browser Detection with JavaScript](http://cdn.sixrevisions.com/0433-02_browser_detection_demo.png)](http://sixrevisions.com/javascript/browser-detection-javascript/)
 
 These are the demo files for a Six Revisions tutorial called [Browser Detection with JavaScript](http://sixrevisions.com/javascript/browser-detection-javascript/).

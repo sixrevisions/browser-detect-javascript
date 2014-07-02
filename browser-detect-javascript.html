@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Browser Detection with JavaScript</title>
+<meta name="description" content="Demo of Navigator object and Detect.js">
+<meta name="author" content="Six Revisions">
+<link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
+<link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="presentation-only/presentation-only.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="browser-detect-javascript.js"></script>
+
+</head>
+<body>
+  <div class="container"> 
+    <header class="header">
+      <h1>Browser Detection with JavaScript</h1>
+      <p class="sub">A couple of techniques for getting browser and operating system information.</p>
+      <nav class="nav">
+        <p><a href="">View tutorial</a></p>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 class="sub">Detection method</h2>
+      <p>
+      <a class="button" id="navigator-obj" href="#message-area">Navigator.userAgent</a> 
+      <a class="button b" id="detect-js" href="#message-area">Detect.js</a>
+      </p>
+    </section>
+    
+    <section id="message-area" class="section message"><noscript>JavaScript is not available in your browser. This demo won't work.</noscript></section>
+  </div>
+</body>
+</html>

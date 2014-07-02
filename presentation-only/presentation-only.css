@@ -1,0 +1,88 @@
+/* Reset */
+html, body, h1, p, div, header, section, nav {
+  margin: 0;
+		padding: 0;
+  vertical-align: baseline;
+		border: 0;
+		font-size: 100%;
+}
+
+/* Basic */
+body {
+  font: normal 18px/26px 'Roboto', sans-serif;
+  color: #ffffff;
+  background: #414c63;
+}
+
+h1 {
+  margin-top:50px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-shadow: 1px 1px #222f49;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+p {
+  margin: 0 0 17px 0;
+}
+
+.sub {
+  color: #788093;
+}
+
+.button {
+  background: #ec759d; /* Old browsers */ 
+	  border-radius: 4px;
+	  color: #fff;
+	  display: inline-block;
+	  font-size: 14px;
+	  text-decoration: none;
+	  line-height: normal;
+   margin:5px 5px;
+	  padding: 8px 12px;
+}
+
+.button:hover {
+  background-color: #788093;
+}
+  .b {
+    background: #a667ee;
+  }
+
+#message-area {
+  font: 300 17px/25px 'Roboto Slab', serif;
+  word-break: break-all;
+  max-width: 420px;
+  margin: 0 auto;
+  color: #9ddfda;
+}
+
+/* Layout */
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section, .header, .nav {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.nav a {
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 18px;
+  padding: 8px 12px;
+}
+
+.nav a:hover {
+   border: 2px solid #788093;
+}
